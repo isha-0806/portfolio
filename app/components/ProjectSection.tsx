@@ -9,7 +9,7 @@ const ProjectSection = () => {
       stack: "NextJs | Typescript | HTML | Tailwind CSS",
       description:
         "Simple responsive portfolio website designed using NextJs and Tailwind CSS",
-      githubUrl: "https://github.com/isha-0806",
+      githubUrl: "https://github.com/isha-0806/portfolio",
     },
     {
       title: "Pro Web Application - Upstox",
