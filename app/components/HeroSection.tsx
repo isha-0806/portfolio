@@ -8,7 +8,7 @@ const HeroSection = () => {
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-5">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-5 md:h-[200px] h-[125px]">
             <span className="text-transparent bg-clip-text bg-gradient-to-r  from-blue-500 to-cyan-500 ">
               Hello, I&apos;m{" "}
             </span>
@@ -26,15 +26,20 @@ const HeroSection = () => {
             ReactJs, NextJs, Redux, HTML, CSS.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-white mt-3 bg-gradient-to-br from-blue-500 to-cyan-500 ">
-              <Link href="/#contact">Hire Me</Link>
+            <button className="w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-white mt-3 bg-gradient-to-br from-blue-500 to-cyan-500 ">
+              <Link
+                className="px-6 py-3 w-full flex justify-center"
+                href="/#contact"
+              >
+                Hire Me
+              </Link>
             </button>
             <button className="bg-gradient-to-br from-blue-500 to-cyan-500 px-1 py-1 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                <Link href="/Resume.pdf" target="_blank">
+              <Link href="/Isha_Jain_Resume.pdf" target="_blank">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                   Download CV
-                </Link>
-              </span>
+                </span>
+              </Link>
             </button>
           </div>
         </div>
