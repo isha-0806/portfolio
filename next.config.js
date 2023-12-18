@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const webpack = require("webpack");
 
-module.exports = nextConfig
+const { parsed: myEnv } = require("dotenv").config({
+  path: "app/.env.local",
+});
+
+const nextConfig = {};
+
+module.exports = nextConfig;
