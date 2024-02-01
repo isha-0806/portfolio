@@ -23,6 +23,7 @@ export type ProjectCardProps = {
   title: string;
   description: string;
   githubUrl?: string;
+  projectUrl?: string;
 };
 
 export type EmailRequest = {

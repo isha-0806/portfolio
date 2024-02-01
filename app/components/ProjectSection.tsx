@@ -19,11 +19,13 @@ const ProjectSection = () => {
         "Worked on various features to enhance the application throughout for better user experience.",
     },
     {
-      title: "Resident Web Portal - myAadhaar",
+      title: "Movie Search Application",
       id: "project_3",
       description:
-        "Developed resident centric portal for providing various services around Aadhaar.",
-      stack: "ReactJs | Redux | HTML | CSS ",
+        "Application for searching movies and getting details about them.",
+      stack: "NextJs | Typescript | HTML | Tailwind CSS",
+      githubUrl: "https://github.com/isha-0806/movie-search-app",
+      projectUrl: "https://movie-search-app-pyp3-isha-0806.vercel.app/",
     },
   ];
   return (
@@ -32,15 +34,18 @@ const ProjectSection = () => {
         My Projects
       </h2>
       <div className="grid gap-10 w-full grid-rows-3 lg:grid-cols-3 lg:grid-rows-1">
-        {project_data.map(({ title, id, description, stack, githubUrl }) => (
-          <ProjectCard
-            title={title}
-            key={id}
-            description={description}
-            stack={stack}
-            githubUrl={githubUrl}
-          />
-        ))}
+        {project_data.map(
+          ({ title, id, description, stack, githubUrl, projectUrl }) => (
+            <ProjectCard
+              title={title}
+              key={id}
+              description={description}
+              stack={stack}
+              githubUrl={githubUrl}
+              projectUrl={projectUrl}
+            />
+          )
+        )}
       </div>
     </section>
   );
