@@ -43,9 +43,11 @@ const AboutSection = () => {
       id: "experience",
       content: (
         <ul className="list-disc pl-2">
-          <li>Software Engineer 1 -- Upstox (RKSV Ltd.) (Current)</li>
+          <li>
+            Software Development Engineer 2 -- Upstox (RKSV Ltd.) (Current)
+          </li>
+          <li>Software Development Engineer 1 -- Upstox (RKSV Ltd.)</li>
           <li>Technical Executive -- UIDAI Technology Centre</li>
-          <li>Software Development Intern -- Zomato Media Private Limited</li>
         </ul>
       ),
     },
