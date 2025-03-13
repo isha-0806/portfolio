@@ -21,9 +21,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Experienced frontend developer with 3+ years of experience in
+            Experienced frontend developer with 4+ years of experience in
             developing web applications. Highly proficient in Javascript,
-            ReactJs, NextJs, Redux, HTML, CSS.
+            Typescript, ReactJs, NextJs, Redux, HTML, CSS.
           </p>
           <div>
             <button className="w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-white mt-3 bg-gradient-to-br from-blue-500 to-cyan-500 ">

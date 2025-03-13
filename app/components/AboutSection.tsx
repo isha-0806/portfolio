@@ -19,6 +19,7 @@ const AboutSection = () => {
       content: (
         <ul className="list-disc pl-2">
           <li>Javascript</li>
+          <li>Typescript</li>
           <li>ReactJs</li>
           <li>NextJs</li>
           <li>HTML</li>
